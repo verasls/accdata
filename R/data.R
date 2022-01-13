@@ -1,0 +1,35 @@
+#' Daily living accelerometer data collected during 3 days
+#'
+#' A dataset containing the timestamp and acceleration values of three days of
+#' accelerometer data collection using a triaxial accelerometer with a sampling
+#' frequency of 100Hz (wGT3X+BT, ActiGraph, Pensacola, FL, USA). Subject was
+#' instructed to wear the accelerometer during all waking periods.
+#' The accelerometer placement and the subject body mass were already added to
+#' the \code{impactr_data} object with
+#' \code{\link[impactr:specify_parameters]{impactr::specify_parameters()}}.
+#'
+#' @format A data frame with 25,913,900 rows and 4 variables:
+#' \describe{
+#'   \item{timestamp}{The data collection timestamp.}
+#'   \item{acc_X, acc_Y, acc_Z}{The acceleration on the X, Y and Z axes,
+#'    stored in gravitational acceleration units (\emph{g}).}
+#' }
+"daily_acc_3d"
+
+#' Daily living accelerometer data collected during 7 days
+#'
+#' A dataset containing the timestamp and acceleration values of seven days of
+#' accelerometer data collection using a triaxial accelerometer with a sampling
+#' frequency of 100Hz (wGT3X+BT, ActiGraph, Pensacola, FL, USA). Subject was
+#' instructed to wear the accelerometer during all waking periods.
+#' The accelerometer placement and the subject body mass were already added to
+#' the \code{impactr_data} object with
+#' \code{\link[impactr:specify_parameters]{impactr::specify_parameters()}}.
+#'
+#' @format A data frame with 60,468,000 rows and 4 variables:
+#' \describe{
+#'   \item{timestamp}{The data collection timestamp.}
+#'   \item{acc_X, acc_Y, acc_Z}{The acceleration on the X, Y and Z axes,
+#'    stored in gravitational acceleration units (\emph{g}).}
+#' }
+"daily_acc_7d"
