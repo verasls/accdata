@@ -9,8 +9,6 @@ License: MIT + file LICENSE
 URL: https://github.com/verasls/accdata
 BugReports: https://github.com/verasls/accdata/issues
 Encoding: UTF-8
-LazyData: true
-LazyDataCompression: xz
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
 Language: en-GB
