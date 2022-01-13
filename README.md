@@ -7,8 +7,8 @@
 
 ## Installation
 
+To install from GitHub:
 ```r
-# Install from GitHub
 # install.packages("devtools")
 devtools::install_github("verasls/accdata")
 ```
