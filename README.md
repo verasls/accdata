@@ -8,7 +8,21 @@
 ## Installation
 
 To install from GitHub:
+
 ```r
 # install.packages("devtools")
 devtools::install_github("verasls/accdata")
+```
+
+To install from the Lucas Veras' [drat](https://lveras.com/drat/) repository:
+
+```r
+install.packages("accdata", repos = "lveras.com/drat", type = "source")
+```
+
+To install from the [{impactr}](https://lveras.com/impactr/) package:
+
+```r
+# install.packages("impactr")
+impactr::install_accdata()
 ```
